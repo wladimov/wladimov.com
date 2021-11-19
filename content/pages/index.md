@@ -4,10 +4,9 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    title: 'Wladimir Moya'
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      Desarrollando experiencias que simplifiquen la vida de las personas.
     actions:
       - label: Let's talk
         url: /contact
@@ -82,30 +81,30 @@ sections:
         url: blog
         style: button
 seo:
-  title: Stackbit Exto Theme
-  description: The preview of the Exto theme
+  title: Wladimir Moya
+  description: Desarrollando experiencias que simplifiquen la vida de las personas.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Exto Theme
+      value: Wladimir Moya
       keyName: property
     - name: 'og:description'
-      value: The preview of the Exto theme
+      value: Desarrollando experiencias que simplifiquen la vida de las personas.
       keyName: property
     - name: 'og:image'
-      value: images/exto_preview.png
+      value: images/icon.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Exto Theme
+      value: Wladimir Moya
     - name: 'twitter:description'
-      value: The preview of the Exto theme
+      value: Desarrollando experiencias que simplifiquen la vida de las personas.
     - name: 'twitter:image'
-      value: images/exto_preview.png
+      value: images/icon.png
       relativeUrl: true
 layout: advanced
 ---
