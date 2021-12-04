@@ -1,23 +1,23 @@
 ---
-title: wladimov.com
-subtitle: Blog de desarrollo web
+title: wladimirmoya.com
+subtitle: Blog personal de Wladimir Moya sobre sus cosas.
 date: '2021-11-318'
 thumb_image: images/icon.png
 thumb_image_alt: Imagotipo de @wladimov
 image: images/icon.png
 image_alt: Imagotipo de @wladimov
 seo:
-  title: wladimov.com
-  description: Blog de Wladimir Moya sobre desarrollo web.
+  title: wladimirmoya.com
+  description: Blog personal de Wladimir Moya sobre sus cosas.
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: wladimov.com
+      value: wladimirmoya.com
       keyName: property
     - name: 'og:description'
-      value: Blog de Wladimir Moya sobre desarrollo web.
+      value: Blog personal de Wladimir Moya sobre sus cosas.
       keyName: property
     - name: 'og:image'
       value: images/icon.png
@@ -26,13 +26,11 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: wladimov.com
+      value: wladimirmoya.com
     - name: 'twitter:description'
-      value: Blog de Wladimir Moya sobre desarrollo web.
+      value: Blog personal de Wladimir Moya sobre sus cosas.
     - name: 'twitter:image'
       value: images/icon.png
       relativeUrl: true
 layout: project
 ---
-
-Hola! Aquí les comentaré como hice este blog y que tecnologias utilicé en el mismo.
