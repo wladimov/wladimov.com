@@ -16,7 +16,7 @@ sections:
     layout_style: mosaic
     title: Recent Work
     subtitle: Projects
-    projects_number: 6
+    projects_number: 4
     view_all_label: View All
     view_all_url: portfolio
   - section_id: latest-posts
