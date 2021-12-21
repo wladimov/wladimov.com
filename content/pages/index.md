@@ -8,20 +8,20 @@ sections:
     content: >-
       Desarrollando experiencias que simplifiquen la vida de las personas.
     actions:
-      - label: Let's talk
+      - label: Hablemos
         url: https://t.me/wladimov
         style: button
   - section_id: latest-projects
     type: section_portfolio
     layout_style: mosaic
-    title: Recent Work
-    subtitle: Projects
+    title: Proyectos recientes
+    subtitle: "\"Si tu negocio no está en Internet, tu negocio no existe.\""
     projects_number: 4
     view_all_label: View All
     view_all_url: portfolio
   - section_id: latest-posts
     type: section_posts
-    title: Latest from the Blog
+    title: Lo último del Blog
     subtitle: El mundo de la web
     posts_number: 3
     col_number: three

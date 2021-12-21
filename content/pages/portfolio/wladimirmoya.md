@@ -1,10 +1,10 @@
 ---
 title: wladimirmoya.com
 subtitle: Blog personal de Wladimir Moya sobre sus cosas.
-date: '2021-11-318'
-thumb_image: images/icon.png
+date: '2021-12-21'
+thumb_image: images/wladimirmoya_.svg
 thumb_image_alt: Imagotipo de @wladimov
-image: images/icon.png
+image: images/wladimirmoya_.svg
 image_alt: Imagotipo de @wladimov
 seo:
   title: wladimirmoya.com
@@ -20,7 +20,7 @@ seo:
       value: Blog personal de Wladimir Moya sobre sus cosas.
       keyName: property
     - name: 'og:image'
-      value: images/icon.png
+      value: images/wladimirmoya_.svg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -30,7 +30,7 @@ seo:
     - name: 'twitter:description'
       value: Blog personal de Wladimir Moya sobre sus cosas.
     - name: 'twitter:image'
-      value: images/icon.png
+      value: images/wladimirmoya_.svg
       relativeUrl: true
 layout: project
 ---

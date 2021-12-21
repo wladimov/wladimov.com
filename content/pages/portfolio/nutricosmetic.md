@@ -1,10 +1,10 @@
 ---
 title: Nutricosmetic
 subtitle: Nutrición y cosmética
-date: '2018-01-15'
-thumb_image: images/nutricosmetic.jpg
+date: '2021-12-10'
+thumb_image: images/nutricosmetic-preview.jpg
 thumb_image_alt: Mujer maquillada con labial morado
-image: images/nutricosmetic.jpg
+image: images/nutricosmetic-preview.jpg
 image_alt: Mujer maquillada con labial morado
 seo:
   title: Nutricosmetic
@@ -20,7 +20,7 @@ seo:
       value: Web de nutricón y cosmética
       keyName: property
     - name: 'og:image'
-      value: images/nutricosmetic.jpg
+      value: images/nutricosmetic-preview.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -30,9 +30,7 @@ seo:
     - name: 'twitter:description'
       value: Web de nutricón y cosmética
     - name: 'twitter:image'
-      value: images/nutricosmetic.jpg
+      value: images/nutricosmetic-preview.jpg
       relativeUrl: true
 layout: project
 ---
-
-

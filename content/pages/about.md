@@ -31,5 +31,3 @@ seo:
       relativeUrl: true
 layout: page
 ---
-
-Hola soy Wladimir Moya. En este blog-portafolio encontrarás información sobre desarrollo web y desarrollo de software.

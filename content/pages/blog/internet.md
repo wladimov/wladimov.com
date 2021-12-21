@@ -1,10 +1,9 @@
 ---
 title: Internet
-subtitle: 'La red que mantiene conectado a todo el mundo '
+subtitle: 'La red que mantiene conectada al mundo '
 excerpt: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua.
-date: '2021-12-10'
+  La red de cables que conecta continentes y permite mantenernos informados, compartir contenido, mirar una apelícula, trabajar, leer este blog y muchas actividades cotidianas y algunas necesarias en nuestra vida.
+date: '2021-12-21'
 thumb_image: images/internet.jpg
 thumb_image_alt: Red global de internet
 image: images/internet.jpg
@@ -12,8 +11,7 @@ image_alt: Red global de internet
 seo:
   title: Internet
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore
+    La red de cables que conecta continentes y permite mantenernos informados, compartir contenido, mirar una apelícula, trabajar, leer este blog y muchas actividades cotidianas y algunas necesarias en nuestra vida.
   extra:
     - name: 'og:type'
       value: article
@@ -23,8 +21,7 @@ seo:
       keyName: property
     - name: 'og:description'
       value: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore
+        La red de cables que conecta continentes y permite mantenernos informados, compartir contenido, mirar una apelícula, trabajar, leer este blog y muchas actividades cotidianas y algunas necesarias en nuestra vida.
       keyName: property
     - name: 'og:image'
       value: images/internet.jpg
@@ -36,8 +33,7 @@ seo:
       value: Internet
     - name: 'twitter:description'
       value: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore
+        La red de cables que conecta continentes y permite mantenernos informados, compartir contenido, mirar una apelícula, trabajar, leer este blog y muchas actividades cotidianas y algunas necesarias en nuestra vida.
     - name: 'twitter:image'
       value: images/internet.jpg
       relativeUrl: true

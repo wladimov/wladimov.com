@@ -16,11 +16,6 @@
                 "label": "Blog",
                 "url": "/blog/",
                 "style": "link"
-            },
-            {
-                "label": "About",
-                "url": "/about/",
-                "style": "link"
             }
         ],
         "logo_img": "/images/favicon.png"

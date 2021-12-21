@@ -1,7 +1,7 @@
 ---
 title: Batabit
 subtitle: Landing page de Batabit
-date: '2019-04-08'
+date: '2021-12-09'
 thumb_image: images/batabit.jpg
 thumb_image_alt: Mujer con bitcoin
 image: images/batabit.jpg
@@ -34,5 +34,3 @@ seo:
       relativeUrl: true
 layout: project
 ---
-
-Desde un diseño mobile first se realizó esta landing page de Batabit.
