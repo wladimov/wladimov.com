@@ -1,7 +1,7 @@
 ---
 title: Nutricosmetic
 subtitle: Nutrición y cosmética
-date: '2021-12-10'
+date: '2018-12-18'
 thumb_image: images/nutricosmetic-preview.jpg
 thumb_image_alt: Mujer maquillada con labial morado
 image: images/nutricosmetic-preview.jpg

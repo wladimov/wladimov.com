@@ -1,6 +1,6 @@
 ---
 title: Blog
-subtitle: 'News, tips and highlights'
+subtitle: 'El mundo de la web'
 hide_title: false
 col_number: three
 seo:

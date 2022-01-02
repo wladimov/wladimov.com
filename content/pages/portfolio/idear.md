@@ -1,7 +1,7 @@
 ---
 title: Idear Agency
 subtitle: Performance Marketing & Innovación Digita
-date: '2018-12-18'
+date: '2021-12-10'
 thumb_image: images/idear.jpg
 thumb_image_alt: Logo de idear agency
 image: images/idear.jpg
