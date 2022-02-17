@@ -11,6 +11,9 @@ sections:
       - label: Hablemos
         url: https://t.me/wladimov
         style: button
+      - label: Invítame un cafecito ☕
+        url: https://www.buymeacoffee.com/wladimov
+        style: button
   - section_id: latest-projects
     type: section_portfolio
     layout_style: mosaic
