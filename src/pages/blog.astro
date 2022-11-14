@@ -18,16 +18,20 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 			a {
 				display: flex;
 				align-items: center;
-				margin: 10px;
+				margin: 10px 0;
 				padding: 10px;
 				text-decoration: none;
+				background-color: #f1f5f9;
+				border-radius: 5px;
 			}
 			a:hover {
 				background-color: #eee;
-				border-radius: 5px;
 			}
 			a:hover h2 {
-				color: #00e;
+				color: #09f;
+			}
+			a:hover img {
+				transform: scale(1.1);
 			}
 			picture {
 				display: flex;
@@ -37,9 +41,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				margin-right: 15px;
 				object-fit: contain;
 				transition: transform ease .3s;
-			}
-			img:hover {
-				transform: scale(1.1);
+				border-radius: 5px;
 			}
 			.title-post {
 				margin: 0;
