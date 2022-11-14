@@ -1,0 +1,30 @@
+---
+
+import HeaderSocial from './HeaderSocial.astro';
+---
+
+<header>
+	<section>
+		<a href="/" aria-label="enlace que redirije al inicio ">
+			<img src="/logo.svg" alt="Wladimir Moya @wladimov logo">
+		</a>
+	</section>
+	<section>
+		<HeaderSocial />
+	</section>
+</header>
+<style>
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
+	img {
+		width: 144px;
+		height: 25px;
+		transition: transform ease .3s;
+	}
+	img:hover {
+		transform: scale(1.1);
+		object-fit: contain;
+	}
+</style>

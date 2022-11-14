@@ -1,0 +1,138 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import TwitterLogo from '../components/logos/Twitter.astro';
+
+
+export interface Props {
+	content: {
+		title: string;
+		description: string;
+		pubDate?: string;
+		updatedDate?: string;
+		heroImage?: string;
+		alt?: string;
+		tag?: string;
+		tagImage?: string;
+		tagAlt?: string;
+	};
+}
+
+const {
+	content: { title, description, pubDate, updatedDate, heroImage, alt, tag, tagImage, tagAlt, },
+} = Astro.props;
+
+---
+
+<html lang="es-Es">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+		<main>
+			<article>
+				<div class="header">
+					<picture>
+						<img
+							src={tagImage}
+							alt={tagAlt}
+						/>
+					</picture>
+					<div>
+						<h1 class="title">{title}</h1>
+						{pubDate &&
+							<time>
+								{new Date(pubDate).toLocaleDateString('es', {
+									year: 'numeric',
+									month: 'long',
+									day: 'numeric',
+								})}
+							</time>
+						}
+					</div>
+				</div>
+				<div class="separator"></div>
+				<slot />
+			</article>
+			<div class="share">
+				<a
+					target='_blank'
+					rel='nofollow noopener'
+					href={ "https://twitter.com/share?url=" + Astro.url + "&text=" + "\"" + title + "\"" +" por @wladimov"} >
+					Comparte el artículo <TwitterLogo />
+				</a>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>
+<style>
+	body {
+		padding: 32px 0;
+	}
+	article {
+		margin-top: 40px;
+	}
+	.header {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	picture {
+		display: flex;
+		align-items: center;
+		width: 100px;
+		height: 100px;
+	}
+	.title {
+		font-size: 36px;
+		font-weight: bold;
+		line-height: 1px;
+	}
+	time {
+		font-size: 12px;
+		color: #4b5563;
+	}
+	.separator {
+		margin: 6px 0;
+		border: 1px solid rgb(231 229 228);
+	}
+
+	.share {
+		position: fixed;
+		display: flex;
+		justify-content: center;
+		padding: 4px;
+		width: 100%;
+		left: 0;
+		right: 0;
+		bottom: 16px;
+		z-index: 1;
+	}
+	.share a {
+		column-gap: 10px;
+		background-color: #fff;
+		border-radius: 32px;
+		bottom: 0;
+		color: #333;
+		display: flex;
+		font-size: 12px;
+		font-weight: bold;
+		margin: 0 16px;
+		padding: 8px 16px;
+		text-align: center;
+		align-self: center;
+		align-items: center;
+		transition: transform ease .3s;
+		text-decoration: none;
+		box-shadow: rgba(100,110,140,.4) 0px 6px 21px 2px;
+	}
+	.share a:hover {
+		transform: scale(1.15);
+		background: rgb(219, 234, 254);
+	}
+
+</style>

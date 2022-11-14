@@ -1,0 +1,100 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import Twitter from '../components/logos/Twitter.astro';
+
+const url = 'https://twitter.com/share?url=';
+// Use Astro.glob() to fetch all posts, and then sort them by date.
+const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
+	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+);
+
+---
+
+<!DOCTYPE html>
+<html lang="es-Es">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			a {
+				display: flex;
+				align-items: center;
+				margin: 10px 0;
+				padding: 10px;
+				text-decoration: none;
+				background-color: #f1f5f9;
+				border-radius: 5px;
+			}
+			a:hover {
+				background-color: #e8f6ff;
+			}
+			a:hover h2 {
+				color: #09f;
+			}
+			a:hover img {
+				transform: scale(1.1);
+			}
+			picture {
+				display: flex;
+			}
+			img {
+				width: 48px;
+				height: 48px;
+				margin-right: 15px;
+				object-fit: contain;
+				transition: transform ease .3s;
+			}
+			.title-post {
+				margin: 0;
+				color: #444;
+				font-size: 18px;
+				font-weight: 600;
+			}
+			.info {
+				color: #535353;
+				font-size: 12px;
+				padding-top: 4px;
+			}
+			ul {
+				padding: 0;
+			}
+			li {
+				list-style: none;
+			}
+		</style>
+	</head>
+	<body class="m-auto">
+		<Header />
+		<main>
+			<section>
+				<h3 class="text-base font-bold my-8">Últimos artículos</h3>
+				<ul>
+					{posts.map((post) =>(
+						<li>
+							{!post.frontmatter.draft &&
+								<a class="content-post" href={post.url}>
+									<picture>
+										<img src={post.frontmatter.tagImage} alt={post.frontmatter.alt} />
+									</picture>
+									<div>
+										<h2 class="title-post">{post.frontmatter.title}</h2>
+										<time class="info" datetime={post.frontmatter.pubDate}>
+											{new Date(post.frontmatter.pubDate).toLocaleDateString('es', {
+												year: 'numeric',
+												month: 'long',
+												day: 'numeric',
+											})}
+										</time>
+									</div>
+								</a>
+							}
+						</li>
+					))}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

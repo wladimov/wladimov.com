@@ -1,0 +1,43 @@
+---
+const {} = Astro.props;
+
+const items = [
+  [
+    {
+        title: "nutricosmetic.top",
+        image: "/internet.jpg",
+        description: ""
+    },
+    {
+        title: "wladimov.com",
+        image: "/social.png",
+        description: " "
+    },
+    {
+        title: "idearagency.com",
+        image: "/web.jpg",
+        description: " "
+    },
+  ],
+];
+
+---
+
+<section class="flex">
+    <div>
+    {
+    items.map((subitems) => (
+    <div class="space-y-8 sm:px-8">
+        {subitems.map(({ title, image, description }) => (
+        <div>
+            <h3 class="mb-3 text-xl font-bold"> {title} </h3>
+            <img src= { image } alt="" />
+            <p> { description } </p>
+        </div>
+        ))}
+    </div>
+    ))
+    }
+    </div>
+  </section>
+
