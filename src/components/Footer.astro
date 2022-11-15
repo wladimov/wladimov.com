@@ -21,7 +21,7 @@ const years = `${year} - ${today.getFullYear()}`;
     >
   </section>
   <section>
-    <p>
+    <p class="p">
       {years} {separator}
       Built with
 	  <svg
@@ -45,6 +45,9 @@ const years = `${year} - ${today.getFullYear()}`;
 	section p {
 		margin-top: 16px;
 		color: #4b5563;
+	}
+	.p {
+		font-size: 14px;
 	}
 	.icon-heart {
 		display: inline-block;
@@ -70,4 +73,5 @@ const years = `${year} - ${today.getFullYear()}`;
 			transform: scale(1.25);
 		}
 	}
+
 </style>
