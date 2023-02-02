@@ -1,24 +1,47 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Markdown Style Guide"
-description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
-pubDate: "Jul 01 2022"
+title: "Guía Markdown"
+description: "Una breve guía de markdown"
+pubDate: "Dec 08 2022"
 heroImage: "/placeholder-hero.jpg"
+alt: "Guía prácticade markdown"
+tag: "markdown"
+tagImage: "/tags/markdown.svg"
+tagAlt: "Markdown"
 draft: true
 ---
 
-Here is a sample of some basic markdown syntax that can be used when writing Markdown content in Astro.
+Markdown...
 
 ## Headings
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+Los siguientes elementos HTML representan seis niveles `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
 # H1
+```markdown
+# H1
+```
 ## H2
+```markdown
+# H2
+```
 ### H3
+```markdown
+# H3
+```
 #### H4
+```markdown
+# H4
+```
 ##### H5
+```markdown
+# H5
+```
 ###### H6
+```markdown
+# H6
+```
+
 
 ## Paragraph
 
@@ -30,6 +53,9 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ![This is a placeholder image description](/placeholder-social.jpg)
 
+```markdown
+![This is a placeholder image description](/placeholder-social.jpg)
+```
 ## Blockquotes
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
