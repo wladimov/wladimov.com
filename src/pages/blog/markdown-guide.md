@@ -8,7 +8,7 @@ alt: "Guía prácticade markdown"
 tag: "markdown"
 tagImage: "/tags/markdown.svg"
 tagAlt: "Markdown"
-draft: false
+draft: true
 ---
 
 ## Encabezados
