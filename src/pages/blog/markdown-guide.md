@@ -2,18 +2,16 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Guía Markdown"
 description: "Una breve guía de markdown"
-pubDate: "Dec 08 2022"
+pubDate: "Dec 08 2023"
 heroImage: "/placeholder-hero.jpg"
 alt: "Guía prácticade markdown"
 tag: "markdown"
 tagImage: "/tags/markdown.svg"
 tagAlt: "Markdown"
-draft: true
+draft: false
 ---
 
-Markdown...
-
-## Headings
+## Encabezados
 
 Los siguientes elementos HTML representan seis niveles `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
@@ -49,12 +47,12 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Images
+## Imágenes
 
-![This is a placeholder image description](/placeholder-social.jpg)
+![This is a placeholder image description](/internet-backbone.jpg)
 
 ```markdown
-![This is a placeholder image description](/placeholder-social.jpg)
+![This is a placeholder image description](/internet-backbone.jpg)
 ```
 ## Blockquotes
 
@@ -62,8 +60,8 @@ The blockquote element represents content that is quoted from another source, op
 
 #### Blockquote without attribution
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+> En 1974 se usó la palabra internet como una abreviatura de internetwork para referirse a los cables físicos y las computadoras que se conectan entre sí.<br>
+> **Nota:** Hoy lo utilizamos para referirnos al sistema global de redes informáticas que están interconectadas.
 
 #### Blockquote with attribution
 
