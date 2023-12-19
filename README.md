@@ -1,4 +1,4 @@
-[Artículos sobre Desarrollo Web, Frontend, JavaScript ☕️, React ⚛️, CSS 🎨, Astro 🚀 y Performance Web ⚡️](https://wladimov.dev/)
+[Artículos sobre Desarrollo Web, Frontend, JavaScript ☕️, React ⚛️, CSS 🎨, Astro 🚀 y Performance Web ⚡️](https://wladimov.com/)
 
 **También puedes seguirme en:**
 

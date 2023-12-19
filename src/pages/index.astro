@@ -68,7 +68,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 	<body>
 		<Header />
 		<main>
-			<section>
+			<section class="last-post">
 				<h3 class="text-base font-bold my-8">Últimos artículos</h3>
 				<ul>
 					{posts.map((post) =>(
@@ -76,7 +76,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 								{!post.frontmatter.draft &&
 									<a class="content-post" href={post.url}>
 										<picture>
-											<img src={post.frontmatter.tagImage} alt={post.frontmatter.alt} />
+											<img src={post.frontmatter.tagImage } alt={post.frontmatter.alt} />
 										</picture>
 										<div>
 											<h2 class="title-post">{post.frontmatter.title}</h2>
@@ -93,6 +93,21 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 							</li>
 						)).slice(0,5)
 					}
+				</ul>
+			</section>
+			<section class="last-notes">
+				<h3 class="text-base font-bold my-8">Notas</h3>
+				<ul>
+					<li>
+						<a class="content-post" href="https://www.wladimov.com/notas">
+							<picture>
+								<img src="/tags/git.png" alt="" />
+							</picture>
+							<div>
+								<h2 class="title-post">¿Cómo borrar una branch de Git desde la terminal?</h2>
+							</div>
+						</a>
+					</li>
 				</ul>
 			</section>
 		</main>
